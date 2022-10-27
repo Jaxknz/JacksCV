@@ -1,26 +1,22 @@
-import { useState , } from 'react';
 import './App.css';
-import MainMint from './MainMint';
+import Main from './Main';
 import NavBar from './NavBar';
 import About from './About';
-import Team from './Team';
-import Roadmap from './Roadmap';
+import Education from './Education';
+import Work from './Work';
 import Footer from './Footer';
-import FAQ from './FAQ';
 
 function App() {
-  const [accounts, setAccounts] = useState([]);
   return( 
     <div className="App">
   <div className='overlay'>
     <div className='moving-background'>
 
-      < NavBar accounts={accounts} setAccounts={setAccounts}/>
-      <MainMint accounts={accounts} setAccounts={setAccounts}/>
+      < NavBar />
+      <Main/>
       <About/>
-      <Team/>
-      <Roadmap/>
-      <FAQ/>
+      <Education/>
+      <Work/>
       <Footer/>
     </div>
  </div>

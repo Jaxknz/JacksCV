@@ -1,4 +1,4 @@
-import {Flex, Text,} from '@chakra-ui/react';
+import {Flex} from '@chakra-ui/react';
 import {Link} from 'react-scroll';
 
 
@@ -11,7 +11,6 @@ const footer = () =>{
 
         </Flex>
             <Flex paddingBottom="20px" align="center" justify="center">
-            <Text fontSize="20px" fontFamily="VT323" color="#ffffff">High Rollers © 2022</Text>
                     </Flex>
                     </div>
     )
