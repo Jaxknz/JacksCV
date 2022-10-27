@@ -127,6 +127,7 @@ font-weight: bold;
   justify-content: center;
   background-color: #0b0b0b;
   margin-bottom:50px;
+  margin: 15px;
 }
 .workStuff{
   display: flex;
