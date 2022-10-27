@@ -9,6 +9,21 @@ const Work = () => {
                 <Flex className="sectionContent" >
                 
                   <ul>
+                                 {/* Intralot details*/}
+                                 <Box className='jobSections'>
+                <Text  className='jobTitle'>Intralot NZ - Application Support
+                <Text className='jobLength'>April 2021– Current</Text>
+                <Text className="jobDetails">I currently hold the role of Application Support at Intralot NZ.  My primary tasks are:</Text>
+                <Text className="jobDescription">
+                <li>Taking phone calls from clients and service technicians.</li>
+                <li>Liaising with off-site contractors to organize equipment replacement.</li>
+                <li>Running daily, weekly, and monthly reports and ensuring they are correct.</li>
+                <li>Monitoring equipment to ensure it is always operational.</li>
+                <li>Testing new software in a test lab to ensure it is compliant.</li>
+                <li>Ensuring all equipment in the test lab is functional.</li>
+                </Text>
+                </Text>
+                </Box>
                   {/* Aidan Kelly details*/}
                   <Box className='jobSections'>
                   <Text className='jobTitle'>Aidan Kelly Contracting - Driver/Labourer
@@ -20,21 +35,6 @@ const Work = () => {
                 <li>Interacting with clients.</li>
                 <li>General laboring tasks.</li>
                 <Text className="extra">While working Aidan Kelly I gained my WTR ticket and forklift license.</Text>
-                </Text>
-                </Text>
-                </Box>
-                        {/* Intralot details*/}
-                        <Box className='jobSections'>
-                <Text  className='jobTitle'>Intralot NZ - Application Support
-                <Text className='jobLength'>April 2021– Current</Text>
-                <Text className="jobDetails">I currently hold the role of Application Support at Intralot NZ.  My primary tasks are:</Text>
-                <Text className="jobDescription">
-                <li>Taking phone calls from clients and service technicians.</li>
-                <li>Liaising with off-site contractors to organize equipment replacement.</li>
-                <li>Running daily, weekly, and monthly reports and ensuring they are correct.</li>
-                <li>Monitoring equipment to ensure it is always operational.</li>
-                <li>Testing new software in a test lab to ensure it is compliant.</li>
-                <li>Ensuring all equipment in the test lab is functional.</li>
                 </Text>
                 </Text>
                 </Box>
