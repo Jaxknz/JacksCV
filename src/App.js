@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+import { useState , } from 'react';
 import './App.css';
+import MainMint from './MainMint';
+import NavBar from './NavBar';
+import About from './About';
+import Team from './Team';
+import Roadmap from './Roadmap';
+import Footer from './Footer';
+import FAQ from './FAQ';
 
 function App() {
-  return (
+  const [accounts, setAccounts] = useState([]);
+  return( 
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <div className='overlay'>
+    <div className='moving-background'>
+
+      < NavBar accounts={accounts} setAccounts={setAccounts}/>
+      <MainMint accounts={accounts} setAccounts={setAccounts}/>
+      <About/>
+      <Team/>
+      <Roadmap/>
+      <FAQ/>
+      <Footer/>
     </div>
+ </div>
+
+  </div>
   );
 }
 

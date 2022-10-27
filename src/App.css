@@ -1,38 +1,248 @@
+
+@import url("https://fonts.googleapis.com/css?family=Kdam+Thmor+Pro");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  font-family: Kdam Thmor Pro, Inconsolata;
+  color: white;
   display: flex;
-  flex-direction: column;
+  background-color: #343434;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+*{
+  box-sizing: border-box;
+}
+.image{
+  width: 20%;
+  height: 20%;
+  margin: 20px 20px;
+}
+.overlay{
+  opacity: 0.95;
+  z-index: 10;
+  position:relative;
 }
 
-.App-link {
-  color: #61dafb;
+.moving-background{
+  z-index: -1;
+  position: relative;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-image: url("./assets/background/parallax-bg.png");
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.image{
+  border-width: 3px;
+  border-radius: 300px;
+  border-color:#00aeff;
+  border-style:outset;
+  padding: 5px;
+  box-shadow: 0 0 50px #00aeff;
+  transition: 0.3s;
+  margin-right: 40px;
+}
+.image:hover{
+  box-shadow: 0 0 100px #00aeff;
+}
+.box{
+  border-width: 2px;
+  border-color:#00aeff;
+  border-style:solid;
+  box-shadow: 0 0 50px #00aeff;
+  border-radius: 100px;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.navbox{
+  margin-bottom: 50px;
+  position: sticky;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.connectText{
+  margin-Top:20px; 
+  letter-Spacing:-5.5%; 
+  font-Family:Inconsolata; 
+  text-Shadow:0 3px #000000;
+  color: #00aeff;
+  font-weight: bolder;
 }
+.link{
+  transition: 0.3s;
+  margin:0 15px;
+}
+.link:hover{
+  color:#00aeff;
+}
+.twitterLink{
+  content: url("./assets/social-media-icons/twitter.png");
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  margin: 0 10px;
+}
+.twitterLink:hover{
+  content: url("./assets/social-media-icons/twitterHover.png");
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  margin: 0 10px;
+}
+.instaLink{
+  content: url("./assets/social-media-icons/instagram.png");
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  margin: 0 10px;
+}
+.instaLink:hover{
+  content: url("./assets/social-media-icons/instagramHover.png");
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.openseaLink{
+  content: url("./assets/social-media-icons/opensea.png");
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  margin: 0 10px;
+  opacity: 0.5;
+  pointer-events: none;
+  cursor:none;
+}
+.openseaLink:hover{
+  content: url("./assets/social-media-icons/openseaHover.png");
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  margin: 0 10px;
+  }
+  .discordLink{
+    content: url("./assets/social-media-icons/discord.png");
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .discordLink:hover{
+    content: url("./assets/social-media-icons/discordHover.png");
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .teamMembers{
+    display: inline-block;
+  }
+
+  .link{
+    display: inline-block;
+    width: 20%;
+  }
+ .team{
+    display: inline;
+    margin: 0 10px;
+    align-items: center;
+    list-style: none;
+  }
+  .container{
+    display: inline-grid;
+    width: 20%;
+    margin: 20px 20px 20px 20px;
+  }
+  .teamImg{
+    border-radius: 300px;
+    border-width: 3px;
+    border-color:#00aeff;
+    border-style:solid;
+    display:inline-block;
+    padding: 5px;
+    margin-bottom: 20px;
+    width:100%;
+    box-shadow: 0 0 50px #00aeff;
+    transition: 0.3s;
+  }
+  .teamImg:hover{
+    box-shadow: 0 0 100px #00aeff;
+  }
+  .link{
+    text-decoration: none;
+    display: inline;
+    padding: 20px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+}
+a{
+    margin: 0 10px;
+}
+.linkInstall{
+    font-size: 18px;
+    color: #000000;
+    border-width: 2px;
+    font-weight: bold;
+    border-color:#00aeff;
+    border-style:solid;
+    border-radius: 20px;
+    opacity: 0.85;
+}
+.linkInstall:hover{
+    box-shadow: 0 0 10px #00aeff;
+}
+.linkWalletM{
+    text-decoration: none;
+    padding: 20px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    content: url("./assets/social-media-icons/metamask.png");
+    border-width: 1px;
+    border-color:#00aeff;
+    border-style:solid;
+    border-radius: 50px;
+    transition: 0.3s;
+    padding-bottom: 20px;
+}
+.linkWalletM:hover{
+    box-shadow: 0 0 10px #00aeff;
+}
+
+  @media screen and (max-width: 780px) {
+    .team{
+      display: grid;
+      padding-bottom: 20px;
+    }
+    .teamImg{
+      width:70%;
+      display: grid;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+
+    }
+    .link{
+      display: none;
+  }
+    .container{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 40px;
+    }
+    .image{
+      display: none;
+    }
+}
+
+  
