@@ -14,7 +14,7 @@ const NavBar =() =>{
             <div className='pageLinks'>
             <ul>
             <Link  className='link' to="About" spy={true} smooth={true} offset={50} duration={500}margin="0 5px">About</Link>
-            <Link className='link' to="Education" spy={true} smooth={true} offset={-20} duration={500}margin="0 5px">Education</Link>
+            <Link className='link' to="Education" spy={true} smooth={true} offset={90} duration={500}margin="0 5px">Education</Link>
             <Link className='link' to="Work" spy={true} smooth={true} offset={90} duration={500}margin="0 5px">Work Experience</Link>
             </ul>
             </div>
