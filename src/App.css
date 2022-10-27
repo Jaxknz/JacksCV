@@ -198,6 +198,9 @@ a{
       display: none;
     }
     .box{
+      width: 40%;
+    }
+    .jobSections{
       width: 50%;
     }
 }
