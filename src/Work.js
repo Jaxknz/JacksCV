@@ -8,7 +8,7 @@ const Work = () => {
             <Text className="title">Work Experience</Text>
                 <Flex className="sectionContent" >
                 
-                  <ul>
+                  <ul className='workStuff'>
                                  {/* Intralot details*/}
                                  <Box className='jobSections'>
                 <Text  className='jobTitle'>Intralot NZ - Application Support
