@@ -8,7 +8,7 @@ const Work = () => {
             <Text className="title">Work Experience</Text>
                 <Flex className="sectionContent" >
                 
-                  
+                  <ul>
                   {/* Aidan Kelly details*/}
                   <Box className='jobSections'>
                   <Text className='jobTitle'>Aidan Kelly Contracting - Driver/Labourer
@@ -55,6 +55,7 @@ const Work = () => {
                 </Text>
                 </Text>
                 </Box>
+                </ul>
                 </Flex>
             </Box>
         </Flex>
