@@ -7,9 +7,9 @@ const Skills =() =>{
         <Box className="box">
         <Text className="title">Skills</Text>
         <Flex className='sectionContent'>
+        <ul className='skillsList'>
         <Box className='skillsContent'>
         <Text className='jobTitle'>Technical Skills</Text>
-        <ul>
         <li>HTML</li>
         <li>CSS</li>
         <li>PHP</li>
@@ -20,11 +20,17 @@ const Skills =() =>{
         <li>C++</li>
         <li>Photoshop</li>
         <li>Microsoft 365 (Excel, word, teams, etc..)</li>
-        </ul>
         </Box>
         <Box className='skillsContent'>
         <Text className='jobTitle'>General Skills</Text>
+        <li>Time management</li>
+        <li>Customer service / Commiunication</li>
+        <li>Problem solving</li>
+        <li>Ability to work in a team or alone</li>
+        <li>Self management</li>
+        <li></li>
         </Box>
+        </ul>
         </Flex>
         </Box>
         </Flex>

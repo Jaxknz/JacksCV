@@ -135,6 +135,9 @@ font-weight: bold;
 .workStuff{
   display: flex;
 }
+.skillsList{
+  display: flex;
+}
 li{
   text-align: center;
   margin-left: 10px;
@@ -218,6 +221,9 @@ a{
 }
 @media screen and (max-width: 1300px) {
   .workStuff{
+    display: block;
+  }
+  .skillsList{
     display: block;
   }
 }
