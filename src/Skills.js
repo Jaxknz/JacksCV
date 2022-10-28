@@ -28,7 +28,6 @@ const Skills =() =>{
         <li>Problem solving</li>
         <li>Ability to work in a team or alone</li>
         <li>Self management</li>
-        <li></li>
         </Box>
         </ul>
         </Flex>
