@@ -2,13 +2,14 @@ import React from 'react';
 import {Flex,ChakraProvider,} from '@chakra-ui/react';
 import {Link} from 'react-scroll';
 import './App.css';
-
-const toggleButton = document.getElementsByClassName('toggle-button')[0]
-const navbarlinks = document.getElementsByClassName('pageLinks')[0]
+{/*
+const toggleButton = document.getElementsByClassName('toggle-button')[0];
+const navbarlinks = document.getElementsByClassName('pageLinks')[0];
 
 toggleButton.addEventListener('click', () =>{
     navbarlinks.classList.toggle('active')
-})
+});
+*/}
 
 const NavBar =() =>{
  
@@ -18,7 +19,7 @@ const NavBar =() =>{
         <Flex justify="center" width="100%"align="center"   justifyContent="center"  paddingTop="1rem">
             {/*Left side*/}
             <Flex  className="navbox" justify= "center" align="center"   >
-            <a href="#" class="toggle-button">
+            <a  class="toggle-button">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
