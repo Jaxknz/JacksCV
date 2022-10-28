@@ -177,6 +177,11 @@ ul{
 }
 .pageLinks li {
   list-style: none;
+}
+.pageLinks li Link {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
   display: block;
 }
 
