@@ -200,7 +200,6 @@ a{
 .email:hover{
   color:#00aeff;
   text-decoration: none;
-  box-shadow: 0 0 10px #518aef;
 }
   @media screen and (max-width: 780px) {
     .link{
