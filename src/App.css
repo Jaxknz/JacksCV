@@ -147,6 +147,9 @@ li{
   padding-left: 20px;
   margin-bottom: 5px;
 }
+ul{
+  text-align: center;
+}
 .section{
   justify-content: center;
  padding-left: auto;
@@ -197,6 +200,7 @@ a{
   color: #ffffff;
   text-decoration: underline;
 }
+
 .email:hover{
   color:#00aeff;
   text-decoration: none;
