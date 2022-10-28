@@ -13,7 +13,7 @@ const NavBar =() =>{
         <Flex justify="center" width="100%"align="center"   justifyContent="center"  paddingTop="1rem">
             {/*Left side*/}
             <Flex  className="navbox" justify= "center" align="center"   >
-            <a href="a" class="toggle-button">
+            <a href="#" class="toggle-button">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
