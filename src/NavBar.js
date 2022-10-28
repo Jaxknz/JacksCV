@@ -2,7 +2,6 @@ import React from 'react';
 import {Flex,ChakraProvider,} from '@chakra-ui/react';
 import {Link} from 'react-scroll';
 import './App.css';
-import './script.js';
 
 
 const NavBar =() =>{
