@@ -2,8 +2,13 @@ import React from 'react';
 import {Flex,ChakraProvider,} from '@chakra-ui/react';
 import {Link} from 'react-scroll';
 import './App.css';
-<script src ="script.js" defer></script>
 
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarlinks = document.getElementsByClassName('pageLinks')[0]
+
+toggleButton.addEventListener('click', () =>{
+    navbarlinks.classList.toggle('active')
+})
 
 const NavBar =() =>{
  
