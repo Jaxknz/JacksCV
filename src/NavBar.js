@@ -16,6 +16,7 @@ const NavBar =() =>{
             <Link  className='link' to="About" spy={true} smooth={true} offset={-10} duration={500}margin="0 5px">About</Link>
             <Link className='link' to="Education" spy={true} smooth={true} offset={-10} duration={500}margin="0 5px">Education</Link>
             <Link className='link' to="Work" spy={true} smooth={true} offset={-10} duration={500}margin="0 5px">Work Experience</Link>
+            <Link className='link' to="skills" spy={true} smooth={true} offset={-10} duration={500}margin="0 5px">Skills</Link>
             </ul>
             </div>
            </Flex>
