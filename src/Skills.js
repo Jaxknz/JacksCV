@@ -1,3 +1,5 @@
+import {Box, Flex, Text} from '@chakra-ui/react';
+
 const Skills =() =>{
     return(
         <div className="Skills" id="skills">
