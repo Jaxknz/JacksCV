@@ -170,6 +170,15 @@ ul{
   display: flex;
   justify-content: space-between;
 }
+.pageLinks ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.pageLinks li {
+  list-style: none;
+  display: block;
+}
 
 .link{
   transition: 0.3s;
