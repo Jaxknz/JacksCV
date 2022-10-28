@@ -12,6 +12,11 @@ const NavBar =() =>{
         <Flex justify="center" width="100%"align="center"   justifyContent="center"  paddingTop="1rem">
             {/*Left side*/}
             <Flex  className="navbox" justify= "center" align="center"   >
+            <a href="a" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
             <div className='pageLinks'>
             <ul>
             <li><Link  className='link' to="About" spy={true} smooth={true} offset={-10} duration={500}margin="0 5px">About</Link></li>
