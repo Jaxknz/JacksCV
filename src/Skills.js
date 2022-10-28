@@ -7,7 +7,12 @@ const Skills =() =>{
         <Box className="box">
         <Text className="title">Skills</Text>
         <Flex className='sectionContent'>
-        <Text>Technical Skills</Text>
+        <Box className='skillsContent'>
+        <Text className='jobTitle'>Technical Skills</Text>
+        </Box>
+        <Box className='skillsContent'>
+        <Text className='jobTitle'>General Skills</Text>
+        </Box>
         </Flex>
         </Box>
         </Flex>
