@@ -228,7 +228,7 @@ a{
   cursor: pointer;
   appearance: none;
   justify-content: right;
-  margin-left:345px
+  margin-left:420px
 }
 .hamburger .bar, .hamburger:after, .hamburger:before{
   width: 100%;
@@ -312,6 +312,11 @@ a{
   }
   .skillsList{
     display: block;
+  }
+}
+@media  screen and (max-width: 700px) {
+  .hamburger{
+    margin-left: 340px ;
   }
 }
 
