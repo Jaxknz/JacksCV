@@ -28,10 +28,10 @@ const NavBar =() =>{
            </Flex>
            <Flex className={`mobileNav ${isActive ? 'is-active' : null}`}>
             <ul>
-           <li><Link  className='link' to="About" spy={true} smooth={true} offset={-10} duration={500}margin="0 5px">About</Link></li>
-            <li><Link className='link' to="Education" spy={true} smooth={true} offset={-10} duration={500}margin="0 5px">Education</Link></li>
-            <li><Link className='link' to="Work" spy={true} smooth={true} offset={-10} duration={500}margin="0 5px">Work Experience</Link></li>
-            <li><Link className='link' to="skills" spy={true} smooth={true} offset={-10} duration={500}margin="0 5px">Skills</Link></li>
+           <li><Link  className='link' to="About" onClick={toggleClass} spy={true} smooth={true} offset={-10} duration={500}margin="0 5px">About</Link></li>
+            <li><Link className='link' to="Education" onClick={toggleClass} spy={true} smooth={true} offset={-10} duration={500}margin="0 5px">Education</Link></li>
+            <li><Link className='link' to="Work" onClick={toggleClass} spy={true} smooth={true} offset={-10} duration={500}margin="0 5px">Work Experience</Link></li>
+            <li><Link className='link' to="skills" onClick={toggleClass} spy={true} smooth={true} offset={-10} duration={500}margin="0 5px">Skills</Link></li>
             </ul>
            </Flex>
         </Flex>
