@@ -271,7 +271,7 @@ a{
     margin-left:650px;
   }
   .mobileNav.is-active{
-    position:fixed ;
+    position:relative ;
     top:0;
     left: 0;
     width: 100%;
@@ -293,6 +293,7 @@ a{
     margin-bottom: 16px;
     text-decoration: none;
     background-color: #0b0b0b;
+
   }
     .container{
       width: 100%;
