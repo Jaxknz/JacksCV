@@ -317,8 +317,12 @@ a{
 }
 @media  screen and (max-width: 650px) {
   .hamburger{
-    margin-left: 340px ;
+    margin-left: 440px ;
   }
+  @media  screen and (max-width: 600px) {
+    .hamburger{
+      margin-left: 340px ;
+    }
 }
 
   
