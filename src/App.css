@@ -228,6 +228,7 @@ a{
   cursor: pointer;
   appearance: none;
   justify-content: right;
+  margin-right: 5px;
  
 }
 .hamburger .bar, .hamburger:after, .hamburger:before{
