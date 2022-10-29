@@ -317,13 +317,13 @@ a{
 }
 @media  screen and (max-width: 700px) {
   .hamburger{
-    margin-right: 50px ;
+    margin-left: 570px ;
   }
 
 }
 @media  screen and (max-width: 600px) {
   .hamburger{
-    margin-right: 20px ;
+    margin-left: 470px ;
   }
 }
 
