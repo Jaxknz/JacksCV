@@ -319,10 +319,12 @@ a{
   .hamburger{
     margin-left: 440px ;
   }
-  @media  screen and (max-width: 600px) {
-    .hamburger{
-      margin-left: 340px ;
-    }
+
+}
+@media  screen and (max-width: 600px) {
+  .hamburger{
+    margin-left: 340px ;
+  }
 }
 
   
