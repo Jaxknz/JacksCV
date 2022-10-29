@@ -228,7 +228,6 @@ a{
   cursor: pointer;
   appearance: none;
   justify-content: right;
-  margin-left: 450px;
  
 }
 .hamburger .bar, .hamburger:after, .hamburger:before{
@@ -269,7 +268,7 @@ a{
   }
   .hamburger{
     display: block;
-    margin-left:440px;
+    margin-left:500px;
   }
   .mobileNav.is-active{
     position:fixed ;
