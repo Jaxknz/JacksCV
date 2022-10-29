@@ -20,6 +20,7 @@ function App() {
       <Work/>
       <Skills/>
       <Footer/>
+  
     </div>
  </div>
 

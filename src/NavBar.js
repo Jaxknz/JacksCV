@@ -1,11 +1,13 @@
-import React from 'react';
-import {Flex,ChakraProvider,} from '@chakra-ui/react';
+import {React, useState} from 'react';
+import {Flex,ChakraProvider} from '@chakra-ui/react';
 import {Link} from 'react-scroll';
 import './App.css';
 
-
 const NavBar =() =>{
- 
+    const [isActive, setActive] = useState(false);
+    const toggleClass = () =>{
+        setActive(!isActive);
+    }
     return(
         <div className='nav' id="nav">
         <ChakraProvider>
@@ -20,6 +22,17 @@ const NavBar =() =>{
             <li><Link className='link' to="skills" spy={true} smooth={true} offset={-10} duration={500}margin="0 5px">Skills</Link></li>
             </ul>
             </div>
+            <button className={`hamburger ${isActive ? 'is-active' : null}`} onClick={toggleClass}>
+                <div className="bar"></div>
+            </button>
+           </Flex>
+           <Flex className={`mobileNav ${isActive ? 'is-active' : null}`}>
+            <ul>
+           <li><Link  className='link' to="About" spy={true} smooth={true} offset={-10} duration={500}margin="0 5px">About</Link></li>
+            <li><Link className='link' to="Education" spy={true} smooth={true} offset={-10} duration={500}margin="0 5px">Education</Link></li>
+            <li><Link className='link' to="Work" spy={true} smooth={true} offset={-10} duration={500}margin="0 5px">Work Experience</Link></li>
+            <li><Link className='link' to="skills" spy={true} smooth={true} offset={-10} duration={500}margin="0 5px">Skills</Link></li>
+            </ul>
            </Flex>
         </Flex>
         </ChakraProvider>
