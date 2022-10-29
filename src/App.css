@@ -315,9 +315,9 @@ a{
     display: block;
   }
 }
-@media  screen and (max-width: 680px) {
+@media  screen and (max-width: 700px) {
   .hamburger{
-    margin-left: 440px ;
+    margin-right: 30px ;
   }
 
 }
