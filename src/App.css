@@ -228,7 +228,7 @@ a{
   cursor: pointer;
   appearance: none;
   justify-content: right;
-  margin-left:370px
+  margin-left:350px
 }
 .hamburger .bar, .hamburger:after, .hamburger:before{
   width: 100%;
