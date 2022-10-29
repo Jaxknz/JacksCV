@@ -268,7 +268,7 @@ a{
   }
   .hamburger{
     display: block;
-    margin-left:600px;
+    margin-left:650px;
   }
   .mobileNav.is-active{
     position:fixed ;
