@@ -15,7 +15,7 @@ const Work = () => {
                 <Text className='jobLength'>December 2022 – Current</Text>
                 <Text className="jobDetails">I currently work for The Treasury; my primary responsibilities are:</Text>
                 <Text className="jobDescription">
-                <li>Being the first point of contact for technical problems within The Treasury, Department of the Prime Minister and Cabinet, National Emergency Management Agency, and Government House.</li>
+                <li>Level 1 & 2 The Treasury, Department of the Prime Minister and Cabinet, National Emergency Management Agency, and Government House.</li>
                 <li>Manual installation of software.</li>
                 <li>Documentation of new and existing problems.</li>
                 <li>Hardware upgrades and replacement.</li>
