@@ -11,24 +11,24 @@ const Work = () => {
                   <ul className='workStuff'>
                     {/* Treasury details*/}
                     <Box className='jobSections'>
-                <Text  className='jobTitle'>Intralot NZ - Application Support
-                <Text className='jobLength'>April 2021– Current</Text>
-                <Text className="jobDetails">I currently hold the role of Application Support at Intralot NZ.  My primary tasks are:</Text>
+                <Text  className='jobTitle'>The Treasury- Service Desk Analyst
+                <Text className='jobLength'>December 2022 – Current</Text>
+                <Text className="jobDetails">I currently work for The Treasury; my primary responsibilities are:</Text>
                 <Text className="jobDescription">
-                <li>Taking phone calls from clients and service technicians.</li>
-                <li>Liaising with off-site contractors to organize equipment replacement.</li>
-                <li>Running daily, weekly, and monthly reports and ensuring they are correct.</li>
-                <li>Monitoring equipment to ensure it is always operational.</li>
-                <li>Testing new software in a test lab to ensure it is compliant.</li>
-                <li>Ensuring all equipment in the test lab is functional.</li>
+                <li>Being the first point of contact for technical problems within The Treasury, Department of the Prime Minister and Cabinet, National Emergency Management Agency, and Government House.</li>
+                <li>Manual installation of software.</li>
+                <li>Documentation of new and existing problems.</li>
+                <li>Hardware upgrades and replacement.</li>
+                <li>Ordering new hardware for clients.</li>
+                <li>Providing meeting room support</li>
                 </Text>
                 </Text>
                 </Box>
                                  {/* Intralot details*/}
                                  <Box className='jobSections'>
                 <Text  className='jobTitle'>Intralot NZ - Application Support
-                <Text className='jobLength'>April 2021– Current</Text>
-                <Text className="jobDetails">I currently hold the role of Application Support at Intralot NZ.  My primary tasks are:</Text>
+                <Text className='jobLength'>April 2021– December 2022</Text>
+                <Text className="jobDetails">While working at IntralotNZ,  My primary responsibilities were:</Text>
                 <Text className="jobDescription">
                 <li>Taking phone calls from clients and service technicians.</li>
                 <li>Liaising with off-site contractors to organize equipment replacement.</li>
@@ -43,7 +43,7 @@ const Work = () => {
                   <Box className='jobSections'>
                   <Text className='jobTitle'>Aidan Kelly Contracting - Driver/Labourer
                 <Text className='jobLength'>July 2018 – April 2021</Text>
-                <Text className="jobDetails">My primary tasks were:</Text>
+                <Text className="jobDetails">My primary responsibilities were:</Text>
                 <Text className="jobDescription">
                 <li>Carrying out civil duties for Wellington Electricity</li>
                 <li>Driving materials from site to site.</li>
@@ -57,7 +57,7 @@ const Work = () => {
                   {/* McDonalds details*/}
                   <Text className='jobTitle'>McDonald’s Mana – Crew/Maintenance
                 <Text className='jobLength'>April 2016 – July 2018</Text>
-                <Text className="jobDetails">My primary tasks as a Crew member were:</Text>
+                <Text className="jobDetails">My primary responsibilities as a Crew member were:</Text>
                 <Text className="jobDescription">
                 <li>Serving customers</li>
                 <li>Ensuring the store was tidy</li>
